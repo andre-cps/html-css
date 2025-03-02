@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(46, 210, 122, 0.556);
+}
+
+main > p {
+    text-indent: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main > section.info > p {
+    text-indent: 30px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(26, 118, 69, 0.298), rgba(17, 81, 47, 0.897));
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+header > section.titulos > h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+ }
+  
+
+header > section.titulos > p{
+    text-align: center;
+    width: 360px;
+    margin: auto;
+    color: white;
+    padding-top: 10px;
+}
+
+header > section.navegador > nav {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+header > section.navegador > nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 15px 1px rgba(56, 124, 88, 0.719);
+    border-bottom-left-radius:  5px ;
+    border-bottom-right-radius: 5px;
+}
+
+main > h1 {
+    color: rgb(15, 86, 15);
+    font-family: idroid;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+main > h2 {
+    color: rgb(15, 86, 15);
+    font-family: idroid;
+    padding-left: 20px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: rgb(9, 73, 22);
+    margin: 0;
+}
+  
+  main > div > iframe {
+    width: 92%;
+    height: 92%;
+    margin: 0;
+}
+
+main > #droid {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+main > #criadora {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main > section.info {
+    margin: 25px;
+    background-color: rgba(115, 255, 180, 0.226);
+    border-radius: 10px;
+}
+
+main > section.info > h4 {
+    background-color: rgba(28, 156, 88, 0.728);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+main > section.info > p {
+    padding: 10px;
+    margin: 0;
+}
+
+main > section.info > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: circle;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(9, 73, 22);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-style: bold;
+}
+
+main > #rodape {
+    padding-bottom: 10px;
+}
